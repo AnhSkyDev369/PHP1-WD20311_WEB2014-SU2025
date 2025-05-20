@@ -137,8 +137,8 @@
 <!-- Giải bài tập -->
 <!-- Bài 1:  Có sự hỗ trợ của ChatGPT -->
 <!-- Giải pháp dựa vào code của ChatGPT -->
- <h2>Bài 1: Tự code và có hỏi ChatGPT</h2>
-<table border= "1">
+<h2>Bài 1: Tự code và có hỏi ChatGPT</h2>
+<table border="1">
     <tr>
         <td>Màu sắc</td>
         <td>Background</td>
@@ -162,10 +162,10 @@
 </table>
 
 <!-- Tự code lại mà không nhìn -->
- <h2>Bài 1: code lại</h1>
-<table border= "3">
-    <tr>
-        <td>Màu sắc</td>
+<h2>Bài 1: code lại</h1>
+    <table border="3">
+        <tr>
+            <td>Màu sắc</td>
             <?php
                 $color1 = [
                     'red'    => 'Màu đỏ',
@@ -180,10 +180,10 @@
 
                 }
             ?>
-    </tr>
-    <tr>
-        <td>Background</td>
-        <?php
+        </tr>
+        <tr>
+            <td>Background</td>
+            <?php
             foreach ($color1 as $colorkey1 => $colorvalue1) {
                 echo "<td style='background-color:$colorkey1';>";
                 echo "&nbsp;";
@@ -191,12 +191,12 @@
             }
 
         ?>
-    </tr>
-</table>
-<br/>
-<hr/>
-<!-- Bài 2: -->
-<?php
+        </tr>
+    </table>
+    <br />
+    <hr />
+    <!-- Bài 2: -->
+    <?php
     echo "Bài 2: Tự code, có suy nghĩ và có hỏi ChatGPT chỗ chưa rõ <br/>";
     //  Mảng $arrInteger có 10 phần tử ngẫu nhiên là số nguyên.
     $arrInteger = [
@@ -247,4 +247,3 @@
     echo "<br/>";
 echo "Tổng của các số nguyên lẻ ramdom là: $tongCacSoNguyenLeRandom";
 ?>
-
