@@ -11,9 +11,6 @@
         require_once './views/layouts/aside.php';
         require_once './views/layouts/main.php';
     ?>
-    <!--
-        Dựng giao diện trang Dashboard có đầy đủ header, sidebar, footer
-    -->
 
     <h1><?php echo $title ?></h1>
 
