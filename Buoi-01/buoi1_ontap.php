@@ -34,9 +34,10 @@
     $null = null;
     echo $null;
     echo '<hr/>';
+
     // - Kiểu mảng trong PHP
-    // - Mảng trong PHP là một tập hợp nhiều các phần tử có cùng hoặc không cùng kiểu dữ liệu
-    //  dùng để lưu trữ nhiều giá trị.
+    // - Mảng trong PHP là một tập hợp nhiều các phần tử có cùng hoặc không cùng kiểu dữ liệu, 
+    //  mảng dùng để lưu trữ nhiều giá trị.
 
     //  Mảng có 2 thành phần:
     //  - Key:   Vị trí của phần tử trong mảng (0->n-1)

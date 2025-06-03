@@ -56,8 +56,8 @@ $sinhVien4->namSinh = 2008;
 $sinhVien4->maSinhVien = "PH45678";
 $sinhVien4->hienThi();
 echo '<br/>';
-//  Một Class có thể được sử dụng ở nhiều nơi
 
+//  Một Class có thể được sử dụng ở nhiều nơi
 //  BT1:
 //  Khai báo class DongVat có các thuộc tính
 //  Tên, tuổi, cân nặng, giống loài, màu sắc, giới tính

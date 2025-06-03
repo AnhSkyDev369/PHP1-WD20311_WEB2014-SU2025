@@ -1,6 +1,6 @@
 <?php
     //  BTVN:
-    //  Bài 1:
+    //  Bài Lab 11:
     //  Cho 1 mảng màu sắc, hiển thị màu sắc ra 1 bảng (table)
     //  Background của ô sẽ trùng với tên màu.
     $color = [
@@ -37,7 +37,7 @@
 </table>
 
 <!-- Bài 2 -->
-<h2>Bài 2: </h2>
+<h2>Bài Lab 2: </h2>
 <?php
     $arrayDefault = [];
     // var_dump($arrayDefault);

@@ -6,9 +6,8 @@
 //  -   Kỹ thuật lập trình đưa các bài toán thành 1 đối tượng cụ thể để giải quyết.
 
 //  ĐỐI TƯỢNG LÀ GÌ ?
-//  -   Đối tượng là một thực thể mà ta có thể thực hiện thao tác với
+//  -   Đối tượng là một thực thể mà ta có thể thực hiện thao tác với nó
 
-//  
 //  Đối tượng là một thực thể trong thế giới thực mà chúng ta có thể nhìn thấy, cảm nhận và tương tác.
 //  Ví dụ: Con mèo, con chó, cái bàn, cái ghế, cái tủ lạnh, cái máy tính, cái điện thoại, cái xe máy, cái ô tô
 
@@ -20,7 +19,7 @@
 
 //  TÍNH ĐÓNG GÓI
 //  - Tính đóng gói sẽ được thể hiện thông qua Class(Lớp)
-//  - Class sẽ đóng gối tất cả thuộc tính và phương thức
+//  - Class sẽ đóng gói tất cả thuộc tính và phương thức
 //  - Từ Class có thể tạo ra nhiều đối tượng có chung thuộc tính và phương thức trong Class
 //  - Thuộc tính: là những gì giúp cấu thành đối tượng (Biến)
 //  - Phương thức: là những hành động mà đối tượng có thể thực hiện (Hàm)

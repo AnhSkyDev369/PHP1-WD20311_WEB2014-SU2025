@@ -19,7 +19,6 @@ class ProductController
         // echo '<pre/>';
         // var_dump($products);
         debug($products);
-
     }
 
 }

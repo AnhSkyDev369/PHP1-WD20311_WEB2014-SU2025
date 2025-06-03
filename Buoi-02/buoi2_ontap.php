@@ -4,32 +4,34 @@
 //  for(giá_trị_ban_đầu; điều_kiện_dừng; bước_nhảy) {
 //      Công việc cần lặp
 //  }
+
 //  Khi nào cần dùng điều kiện for ?
-//  -   Khi biết trước số lần lặp
-//  -   Khi biết rõ điều kiện dừng
-//  -   Khi biết rõ bước nhảy
 //  -   Khi biết rõ giá trị ban đầu
+//  -   Khi biết rõ điều kiện dừng
+//  -   Khi biết trước số lần lặp
+//  -   Khi biết rõ bước nhảy
 
 // while (điều_kiện_dừng) {
 //  Công việc cần lặp
 //  Bước nhảy
 // }
-// Sử dụng khi đã biết rõ điều kiện dừng, nhưng không biết số lần lặp chính xác
-// Luôn luôn bắt đầu từ 0
-// Điều kiện được kiểm tra trước ngay từ đầu -> Có thể không chạy lần nào
+// -    Sử dụng khi đã biết rõ điều kiện dừng, nhưng không biết số lần lặp chính xác
+// -    Luôn luôn bắt đầu từ 0
+// -    Điều kiện được kiểm tra trước ngay từ đầu -> Có thể không chạy lần nào
 
 // do {
 //  Công việc cần lặp
 //  Bước nhảy 
 // } while (điều_kiện _dừng);
-//  Sử dụng khi đã biết rõ điều kiện dừng, nhưng cũng không biết số lần lặp chính xác
-//  Đảm bảo vòng lặp chạy ít nhất 1 lần, vì điều kiện được kiểm tra sau, kể cả khi điều kiện đó sai ngay từ đầu.
+//  -   Sử dụng khi đã biết rõ điều kiện dừng, nhưng cũng không biết số lần lặp chính xác
+//  -   Đảm bảo vòng lặp chạy ít nhất 1 lần, vì điều kiện được kiểm tra sau, kể cả khi điều kiện đó sai ngay từ đầu.
 
-//  Dùng for để hiển thị giá trị của các phần tử trong mảng sau:
-// $array = [1, 2, 3, 7, 9, 5.8, true, 'xyz'];
-// for ($i = 0; $i < count($array); $i++) {
-//     echo "Phần tử nằm ở vị trí $i có giá trị là: " . $array[$i] . "<br/>";
-// }
+// Dùng for để hiển thị giá trị của các phần tử trong mảng sau:
+$array = [1, 2, 3, 7, 9, 5.8, true, 'xyz'];
+for ($i = 0; $i < count($array); $i++) {
+    echo "Phần tử nằm ở vị trí $i có giá trị là: " . $array[$i] . "<br/>";
+}
+// var_dump(count($array));
 
 //  ---------------------------------------------
 //  CÂU ĐIỀU KIỆN
@@ -75,7 +77,8 @@
 //  KHI NÀO DÙNG IF_ELSEIF_ELSE VÀ SWITCH CASE?
 //  Nên dùng if-elseif-else khi:
 //  - So sánh nhiều điều kiện phức tạp khác nhau (có sử dụng >,<, >=, <=, !=, ==, ===, !==, ||, &&,...)
-//  - So sánh nhiều biến và kiểu dữ liệu khác nhau
+//  - So sánh nhiều biến và kiểu dữ liệu khác nhau.
+
 //  Nên dùng switch-case khi:
 //  - So sánh, kiểm tra nhiều giá trị cụ thể một biến với nhiều giá trị khác nhau
 //  - Không cần sử dụng toán tử so sánh, logic ,... như if-elseif-else
@@ -87,7 +90,7 @@
 //  Có bao nhiêu loại hàm ?
 
 //  Hàm là 1 khối code dùng để thực hiện 1 nhiệm vụ nhất định nào đó và có tính tái sử dụng cao
-//  Có 2 loại hàm chính là hàm trả về và hàm không trả về(trả về 1 giá trị nhất định nào đó (return) )
+//  Có 2 loại hàm chính là hàm trả về và hàm không trả về (trả về 1 giá trị nhất định nào đó (return) )
 //  -   Hàm trả về
 //  -   Hàm không trả về
 //  -   Trong mỗi loại có 2 loại nhỏ là hàm có tham số và hàm không có tham số
@@ -110,7 +113,7 @@
 
 //  Giải bài tập:
 
-//  Bài 1:
+//  Bài Lab 1:
 $heso_a = "";
 $heso_b = "";
 $heso_c = "";
@@ -158,12 +161,13 @@ function giaiPTB2($a, $b, $c)
         echo "Phương trình vô nghiệm !";
     }
 }
-// giaiPTB2(1, -49, -50);// 
-// giaiPTB2(1, -4, 4);//   Nghiệm kép
+// giaiPTB2(1, -49, -50);
+// giaiPTB2(1, -4, 4);
 // echo "<br/>";
-// giaiPTB2(3, 2, 5);//   Vô nghiệm
+// giaiPTB2(3, 2, 5);
 // echo "<br/>";
-// giaiPTB2(2, -7, 3);//   
+// giaiPTB2(2, -7, 3);
+
 ?>
 <form action="#" method="post">
     <table border="2">

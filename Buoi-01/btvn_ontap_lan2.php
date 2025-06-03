@@ -29,6 +29,15 @@ $color = [
     }
     ?>
 </table>
+<table border="2">
+    <tr>
+        <td>Màu sắc</td>
+    </tr>
+    <tr>
+        <td>Background</td>
+    </tr>
+</table>
+
 <h2>Bài 2</h2>
 <?php
     $arrayNgauNhien = [];

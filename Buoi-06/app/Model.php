@@ -11,7 +11,7 @@ function connectDB()
             DB_USERNAME, 
             DB_PASSWORD
         );
-        //thiết lập cơ  chế báo lỗi
+        //Thiết lập cơ  chế báo lỗi
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Cài đặt hiển thị dữ liệu

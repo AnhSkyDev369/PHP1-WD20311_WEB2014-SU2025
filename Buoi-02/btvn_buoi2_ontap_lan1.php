@@ -1,5 +1,5 @@
 <?php
-//  Bài 1:  Sử dụng hàm trả về có tham số để giải phương trình bậc hai
+//  Bài Lab 1:  Sử dụng hàm trả về có tham số để giải phương trình bậc hai
 $heso_a = $heso_b = $heso_c = "";
 
 if (isset($_POST['heso_a'])) $heso_a = $_POST['heso_a'];
@@ -75,7 +75,7 @@ if (is_numeric($GLOBALS['heso_a']) && is_numeric($GLOBALS['heso_b']) && is_numer
     echo "Vui lòng nhập các hệ số a, b, c là số!";
 }
 
-//  Bài 2:  Tạo 1 hàm để hiển thị giá trị của các phần tử trong mảng được truyền vào.
+//  Bài Lab 2:  Tạo 1 hàm để hiển thị giá trị của các phần tử trong mảng được truyền vào.
 
 function showArray($arr) {
     if (is_array($arr)) {
