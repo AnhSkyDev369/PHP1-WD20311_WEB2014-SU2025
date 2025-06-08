@@ -16,7 +16,11 @@ match ($action) {
     '/'         => (new DashboardController)->index(),
 
     //  Các đường dẫn quản lý sản phẩm
-    'products' => (new ProductController)->index()
+    'products' => (new ProductController)->index(),
+    'product-show' => (new ProductController)->show(),
+    'categories' => (new CategoryController)->index(),
+    'category-show' => (new CategoryController)->show(),
+    
     // Các đường dẫn chức năng authhen
     // 'show-form-login'       => (new AuthenController)->showFormLogin(),
     // 'login'                 => (new AuthenController)->login(),

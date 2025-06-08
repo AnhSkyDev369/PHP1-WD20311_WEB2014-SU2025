@@ -26,8 +26,27 @@ class ProductController
         //  Sử dụng layouts admin để hiển thị
         require_once PATH_VIEW_ADMIN_MAIN;//  Dòng mặc định
     }
-//  Bài lab 5: 
-//  Xây dựng lại giao diện trang quản trị có đầy đủ các thành phần header, sidebar, footer
-//  (Chỉ được phép require vào layouts chính ) 
-//  Hiển thị đúng tên của danh mục ra màn hình
+
+    //  Bài lab 5: 
+    //  Xây dựng lại giao diện trang quản trị có đầy đủ các thành phần header, sidebar, footer
+    //  (Chỉ được phép require vào layouts chính ) 
+    //  Hiển thị đúng tên của danh mục ra màn hình
+
+    //  Hàm hiển thị chi tiết sản phẩm
+
+    //  Bước 10
+    public function show()
+    {   
+        $title = "Chi tiết sản phẩm";//    Tiêu đề hiển thị
+        $view = "products/show";//   Giao diện sử dụng 
+     
+        $id = $_GET['id'];
+        $product = $this->modelProduct->find($id);
+        if (empty($id) || empty($product)) {
+            redirect404();
+        } 
+
+        require_once PATH_VIEW_ADMIN_MAIN;
+        // debug($product);
+    }
 }

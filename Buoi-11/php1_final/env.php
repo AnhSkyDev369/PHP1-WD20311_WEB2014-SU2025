@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL',                  'http://localhost/FPT-Code/WD20311_WEB2014/Buoi-11/php1_final/'); // Định nghĩa URL gốc của website (Bước 1)
+define('BASE_URL',                  'http://localhost/FPT-Code/WD20311_WEB2014/Buoi-11/php1_final/'); // Định nghĩa URL gốc của website (Bước 1): Dán Url trên web vào BASE_URL
 define('BASE_URL_ADMIN',            BASE_URL . '?mode=admin'); // Định nghĩa URL gốc dành cho trang quản trị
 
 define('PATH_ROOT',                 __DIR__ . '/'); // Đường dẫn tuyệt đối đến thư mục gốc của project (nơi đặt file index.php)
@@ -31,4 +31,4 @@ define('DB_HOST',                   'localhost');
 define('DB_PORT',                   '3306');
 define('DB_USERNAME',               'root');
 define('DB_PASSWORD',               '');
-define('DB_NAME',                   'php1_wd20311');//  Bước 3
+define('DB_NAME',                   'php1_wd20311');//  (Bước 3): Dán tên db trên phpmyadmin vào DB_NAME 

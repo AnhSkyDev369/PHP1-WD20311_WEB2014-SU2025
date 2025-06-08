@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Trang chủ CLIENT</h1>
-    <a href="<?= BASE_URL_ADMIN?>">Đi đến trang quản trị (Bước 2)</a>
-    <!-- Quản lý danh mục lab 567 -->
+    <!-- (Bước 2) -->
+    <a href="<?= BASE_URL_ADMIN?>">Đi đến trang quản trị </a>
+    <!-- Quản lý danh mục lab 567 -->   
 </body>
 </html>
