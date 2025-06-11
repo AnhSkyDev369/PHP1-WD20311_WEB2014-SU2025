@@ -1,0 +1,26 @@
+<?php
+
+$action = $_GET['action'] ?? '/';
+
+// Kiểm tra đăng nhập nếu là user thì quay về trang đăng nhập
+// if (
+//     empty($_SESSION['user'])
+//     && !in_array($action, ['show-form-login', 'login'])
+// ) {
+//     header('Location: ' . BASE_URL_ADMIN . '&action=show-form-login');
+//     exit();
+// }
+
+match ($action) {
+    //  Bước 9
+    '/'         => (new DashboardController)->index(),
+    'products' =>(new ProductController)->index(),
+    'product-show' => (new ProductController)->show(),
+
+    'categories' => (new CategoryController)->index(),
+    'category-show' => (new CategoryController)->show(),
+    // Các đường dẫn chức năng authhen
+    // 'show-form-login'       => (new AuthenController)->showFormLogin(),
+    // 'login'                 => (new AuthenController)->login(),
+    // 'logout'                => (new AuthenController)->logout(),
+};
