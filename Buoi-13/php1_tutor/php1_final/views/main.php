@@ -22,10 +22,7 @@
                 <a class="nav-link text-uppercase" href="<?= BASE_URL ?>"><b>Home</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-uppercase" href="<?= BASE_URL . '?action=products' ?>"><b>Quản lý sản phẩm</b></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="<?= BASE_URL . '?action=categories' ?>"><b>Quản lý danh mục</b></a>
+                <a class="nav-link text-uppercase" href="<?= BASE_URL . '?action=books' ?>"><b>Quản lý sách</b></a>
             </li>
         </ul>
     </nav>

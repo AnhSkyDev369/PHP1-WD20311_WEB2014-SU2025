@@ -35,4 +35,6 @@ class ProductController
 
         require_once PATH_VIEW_MAIN;
     }
+
+    
 }

@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL',          'http://localhost/FPT-Code/WD20311_WEB2014/Buoi-13/php1_final_new/'); // Thêm đường dẫn tới thư mục dự án
+define('BASE_URL',          'http://localhost/FPT-Code/WD20311_WEB2014/Buoi-13/php1_final_lamlaicrud/php1_final/'); //Bước 2 Thêm đường dẫn tới thư mục dự án
 
 define('PATH_ROOT',         __DIR__ . '/../');
 
@@ -20,7 +20,7 @@ define('DB_HOST',     'localhost');
 define('DB_PORT',     '3306');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_NAME',     'php1_wd20311_php_final_lan1');
+define('DB_NAME',     'php1_wd20311_lamlaicrud');// Bước 1
 define('DB_OPTIONS', [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
