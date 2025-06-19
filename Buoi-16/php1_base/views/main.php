@@ -21,8 +21,8 @@
             <li class="nav-item">
                 <a class="nav-link text-uppercase" href="<?= BASE_URL ?>"><b>Home</b></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="<?= BASE_URL . '?action=users' ?>"><b>Quản lý người dùng</b></a>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="<?= BASE_URL . "?action=users" ?>"><b>Quản Lý Khoá Học</b></a>
             </li>
         </ul>
     </nav>
@@ -40,5 +40,4 @@
     </div>
 
 </body>
-
 </html>

@@ -5,7 +5,6 @@
             <?php foreach($roles as $role):  ?>
                 <option value="<?=$role['id']?>"><?=$role['name']?></option>
             <?php endforeach;?>
-
         </select>
     </div>
     <div>
